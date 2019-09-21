@@ -4,7 +4,9 @@
   "description": "Perform / Midas Gen result conversion to object",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --exec babel-node ./index.js"
+    "start": "nodemon --exec babel-node ./index.js",
+    "python": "pip install -r ./plot/requirements.txt",
+    "plot": "python ./plot/plotPerform.py"
   },
   "repository": {
     "type": "git",
