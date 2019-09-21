@@ -74,37 +74,39 @@ result
 
 ```json
 [
-  "member": {
-    "{memberName}": {
-      "basicData": {
-        "부재": [StringArray],
-        "사용철근(수평)": [NumberArray],
-        "간격입력": [NumberArray],
-        "높이입력(m)": [NumberArray],
-        "벽폭": [NumberArray],
-        "V-항복강도": [NumberArray],
-        "H-항복강도": [NumberArray],
-        "강도A": [NumberArray],
-        "벽길이(m)": [NumberArray],
-        "강도B": [NumberArray],
-        "벽길이(mm)": [NumberArray],
-        "높이입력(mm)": [NumberArray]
-      },
-      "demandShear": {
-        "수평철근 단면적": [NumberArray],
-        "수평철근 간격": [NumberArray],
-        "철근 항복기대강도": [NumberArray],
-        "벽체 높이": [NumberArray],
-        "벽체 연직단면적": [NumberArray],
-        "철근 전체단면적": [NumberArray],
-        "전단철근비": [NumberArray],
-        "Vs": [NumberArray],
-        "재료 강도": [NumberArray],
-        "벽체 폭": [NumberArray],
-        "벽체 길이": [NumberArray],
-        "Vc": [NumberArray],
-        "벽체 전단강도": [NumberArray],
-        "max Vn": [NumberArray]
+  {
+    "member": {
+      "{memberName}": {
+        "basicData": {
+          "부재": [StringArray],
+          "사용철근(수평)": [NumberArray],
+          "간격입력": [NumberArray],
+          "높이입력(m)": [NumberArray],
+          "벽폭": [NumberArray],
+          "V-항복강도": [NumberArray],
+          "H-항복강도": [NumberArray],
+          "강도A": [NumberArray],
+          "벽길이(m)": [NumberArray],
+          "강도B": [NumberArray],
+          "벽길이(mm)": [NumberArray],
+          "높이입력(mm)": [NumberArray]
+        },
+        "demandShear": {
+          "수평철근 단면적": [NumberArray],
+          "수평철근 간격": [NumberArray],
+          "철근 항복기대강도": [NumberArray],
+          "벽체 높이": [NumberArray],
+          "벽체 연직단면적": [NumberArray],
+          "철근 전체단면적": [NumberArray],
+          "전단철근비": [NumberArray],
+          "Vs": [NumberArray],
+          "재료 강도": [NumberArray],
+          "벽체 폭": [NumberArray],
+          "벽체 길이": [NumberArray],
+          "Vc": [NumberArray],
+          "벽체 전단강도": [NumberArray],
+          "max Vn": [NumberArray]
+        }
       }
     }
   },
