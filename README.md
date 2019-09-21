@@ -3,7 +3,7 @@
 ## Work Flow & Roadmap
 
 - [x] Midas gen result text files parsing to object
-- [ ] Perform result text files parsing to object
+- [x] Perform result text files parsing to object
 - [ ] Manipulate data relation and write result to object
 - [ ] Plotting result with every members
 
@@ -34,6 +34,22 @@ data
 
 ```bash
 result
-└── midasgen
-    └── gen_summary2.json
+├── midasgen
+│   ├── demand_shear.json
+│   └── gen_summary2.json
+└── perform
+    ├── Wall_EQ1_V.json
+    ├── Wall_EQ1_V_2.json
+    ├── Wall_EQ2_V.json
+    ├── Wall_EQ2_V_2.json
+    ├── Wall_EQ3_V.json
+    ├── Wall_EQ3_V_2.json
+    ├── Wall_EQ4_V.json
+    ├── Wall_EQ4_V_2.json
+    ├── Wall_EQ5_V.json
+    ├── Wall_EQ5_V_2.json
+    ├── Wall_EQ6_V.json
+    ├── Wall_EQ6_V_2.json
+    ├── Wall_EQ7_V.json
+    └── Wall_EQ7_V_2.json
 ```

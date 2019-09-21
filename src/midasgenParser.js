@@ -36,11 +36,10 @@ export const genMemberParser = (filename, callback) => {
             .replace(/\(/g, " ")
             .replace(/\)/g, " ")
             .replace(/\,/g, " ");
-
           const story = targetLine.split(" ").filter(val => val.length !== 0);
           const storyJSON = {
             STO: story[0],
-            HTW: Number(story[1]),
+            HTw: Number(story[1]),
             hw: Number(story[2]),
             fck: Number(story[3]),
             fy: Number(story[4]),
