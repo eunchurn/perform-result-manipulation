@@ -112,6 +112,8 @@ result
 ]
 ```
 
+- 각 항목은 너무 많아서 생략
+
 ### Perform 3D Demand Shear result JSON data structure
 
 ```json
