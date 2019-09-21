@@ -1,4 +1,4 @@
-# Perform / Midas Gen 결과 정리
+# [Perform 3D](https://www.csiamerica.com/products/perform-3d) / [Midas Gen](https://en.midasuser.com/product/gen_overview.asp) 결과 정리
 
 ## Work Flow & Roadmap
 
@@ -154,8 +154,9 @@ result
 
 ### To do items
 
-- [ ] Waiting Perform 3D result
+- [ ] Waiting Perform 3D result matched with Midas Gen result (pending)
 - [x] Plotting result
+- [x] Smoothing data plot
 - [ ] Automation all save result figures `PNG` or `EPS`
 
 - `MATLAB/dataplotX.m`: `*_V.json`의 결과 플롯
