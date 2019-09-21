@@ -1,4 +1,4 @@
-# [Perform 3D](https://www.csiamerica.com/products/perform-3d) / [Midas Gen](https://en.midasuser.com/product/gen_overview.asp) 결과 정리
+# Plot shear force result of [Perform 3D](https://www.csiamerica.com/products/perform-3d) and [Midas Gen](https://en.midasuser.com/product/gen_overview.asp)
 
 ## Work Flow & Roadmap
 
@@ -6,6 +6,25 @@
 - [x] Perform result text files parsing to object
 - [x] Manipulation data relation and print result to object
 - [ ] Plotting result with every member
+
+## Installation
+
+### prerequisites
+
+- [Node.js LTS version](https://nodejs.org)
+- [Python 3.7](https://www.python.org/)
+
+### Dependencies installation
+
+`npm install`
+
+### Getting started
+
+- Data should be the exact directories as [data structure](#example-data-structure)
+- Result will be found in [result data structure](#result-data-files-structure)
+- Command-Line start
+
+`npm start`
 
 ## Example data structure
 
