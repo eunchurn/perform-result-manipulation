@@ -1,0 +1,51 @@
+{
+  "name": "perform-result-manipulation",
+  "version": "1.0.0",
+  "description": "Perform / Midas Gen result conversion to object",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/eunchurn/perform-result-manipulation.git"
+  },
+  "keywords": [
+    "perform",
+    "midas",
+    "gen"
+  ],
+  "author": "Eunchurn Park",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eunchurn/perform-result-manipulation/issues"
+  },
+  "homepage": "https://github.com/eunchurn/perform-result-manipulation#readme",
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ],
+    "plugins": [
+      [
+        "module-resolver",
+        {
+          "root": [
+            "./"
+          ],
+          "alias": {
+            "@src": "./src",
+            "@midas": "./data/midasgen",
+            "@perform": "./data/perform"
+          }
+        }
+      ]
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/node": "^7.6.1",
+    "@babel/preset-env": "^7.6.0",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "nodemon": "^1.19.2"
+  }
+}
