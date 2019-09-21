@@ -1,4 +1,4 @@
-export const extractData = data => {
+export const extractGenDS = data => {
   const members = Object.keys(data);
   const reBarProp = {
     10: 71.3,

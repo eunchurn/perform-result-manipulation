@@ -4,7 +4,7 @@
   "description": "Perform / Midas Gen result conversion to object",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node ./index.js"
+    "start": "nodemon --exec babel-node ./index.js"
   },
   "repository": {
     "type": "git",
