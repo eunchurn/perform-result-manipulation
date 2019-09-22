@@ -16,7 +16,22 @@
 
 ### Dependencies installation
 
-`npm install`
+#### Node dependencies install
+
+Run `npm install`
+
+#### Python dependencies install
+
+Run `pip install -r requirements.txt`
+
+On Windows OS:
+
+```
+python -m pip install -U pip setuptools
+python -m pip install matplotlib
+python -m pip install scipy
+python -m pip install numpy
+```
 
 ### Getting started
 
