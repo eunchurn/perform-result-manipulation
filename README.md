@@ -5,7 +5,7 @@
 - [x] Midas gen result text files parsing to object
 - [x] Perform result text files parsing to object
 - [x] Manipulation data relation and print result to object
-- [ ] Plotting result with every member
+- [ ] Plotting result with every member (Midas Gen 결과의 높이 데이터가 필요)
 
 ## Installation
 
