@@ -35,16 +35,16 @@
             "./"
           ],
           "alias": {
-            "@src": "./src",
-            "@midas": "./data/midasgen",
-            "@perform": "./data/perform"
+            "@src": "./src"
           }
         }
       ]
     ]
   },
   "nodemonConfig": {
-    "ignore": ["result/*"]
+    "ignore": [
+      "result/*"
+    ]
   },
   "devDependencies": {
     "@babel/core": "^7.6.0",
@@ -52,5 +52,8 @@
     "@babel/preset-env": "^7.6.0",
     "babel-plugin-module-resolver": "^3.2.0",
     "nodemon": "^1.19.2"
+  },
+  "dependencies": {
+    "python-shell": "^1.0.8"
   }
 }

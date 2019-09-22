@@ -22,9 +22,70 @@
 
 - Data should be the exact directories as [data structure](#example-data-structure)
 - Result will be found in [result data structure](#result-data-files-structure)
-- Command-Line start
+- Data structure setup in `data.json` file
+- Specified key names
+  - `inputXPerform`: X-axis data output from Perform 3D results by EQ name
+  - `inputYPerform`: Y-axis data output from Perform 3D results by EQ name
+  - `inputGen`: Data output text file name from Midas Gen result
+  - Example `data.json`
 
-`npm start`
+```json
+{
+  "inputXPerform": [
+    {
+      "EQ1": "./data/perform/Wall_EQ1_V.txt"
+    },
+    {
+      "EQ2": "./data/perform/Wall_EQ2_V.txt"
+    },
+    {
+      "EQ3": "./data/perform/Wall_EQ3_V.txt"
+    },
+    {
+      "EQ4": "./data/perform/Wall_EQ4_V.txt"
+    },
+    {
+      "EQ5": "./data/perform/Wall_EQ5_V.txt"
+    },
+    {
+      "EQ6": "./data/perform/Wall_EQ6_V.txt"
+    },
+    {
+      "EQ7": "./data/perform/Wall_EQ7_V.txt"
+    }
+  ],
+  "inputYPerform": [
+    {
+      "EQ1": "./data/perform/Wall_EQ1_V_2.txt"
+    },
+    {
+      "EQ2": "./data/perform/Wall_EQ2_V_2.txt"
+    },
+    {
+      "EQ3": "./data/perform/Wall_EQ3_V_2.txt"
+    },
+    {
+      "EQ4": "./data/perform/Wall_EQ4_V_2.txt"
+    },
+    {
+      "EQ5": "./data/perform/Wall_EQ5_V_2.txt"
+    },
+    {
+      "EQ6": "./data/perform/Wall_EQ6_V_2.txt"
+    },
+    {
+      "EQ7": "./data/perform/Wall_EQ7_V_2.txt"
+    }
+  ],
+  "inputGen": [
+    "./data/midasgen/gen_summary2.txt"
+  ]
+}
+```
+
+- Command-Line start with data structure file
+
+`npm start ./data.json`
 
 ## Example data structure
 

@@ -1,0 +1,51 @@
+{
+  "inputXPerform": [
+    {
+      "EQ1": "./data/perform/Wall_EQ1_V.txt"
+    },
+    {
+      "EQ2": "./data/perform/Wall_EQ2_V.txt"
+    },
+    {
+      "EQ3": "./data/perform/Wall_EQ3_V.txt"
+    },
+    {
+      "EQ4": "./data/perform/Wall_EQ4_V.txt"
+    },
+    {
+      "EQ5": "./data/perform/Wall_EQ5_V.txt"
+    },
+    {
+      "EQ6": "./data/perform/Wall_EQ6_V.txt"
+    },
+    {
+      "EQ7": "./data/perform/Wall_EQ7_V.txt"
+    }
+  ],
+  "inputYPerform": [
+    {
+      "EQ1": "./data/perform/Wall_EQ1_V_2.txt"
+    },
+    {
+      "EQ2": "./data/perform/Wall_EQ2_V_2.txt"
+    },
+    {
+      "EQ3": "./data/perform/Wall_EQ3_V_2.txt"
+    },
+    {
+      "EQ4": "./data/perform/Wall_EQ4_V_2.txt"
+    },
+    {
+      "EQ5": "./data/perform/Wall_EQ5_V_2.txt"
+    },
+    {
+      "EQ6": "./data/perform/Wall_EQ6_V_2.txt"
+    },
+    {
+      "EQ7": "./data/perform/Wall_EQ7_V_2.txt"
+    }
+  ],
+  "inputGen": [
+    "./data/midasgen/gen_summary2.txt"
+  ]
+}
