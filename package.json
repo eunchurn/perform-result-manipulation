@@ -51,7 +51,7 @@
     "@babel/node": "^7.6.1",
     "@babel/preset-env": "^7.6.0",
     "babel-plugin-module-resolver": "^3.2.0",
-    "nodemon": "^1.19.2"
+    "nodemon": "^2.0.0"
   },
   "dependencies": {
     "python-shell": "^1.0.8"
